@@ -1,2 +1,4 @@
 configured_endpoints: 4
 openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/miriam%2Fmiriam-example-0489a27d3bdfc5d5f12bd06a92688f0b814046e0ee59bec4c3f30a4a5632f212.yml
+openapi_spec_hash: a9bac517e13e3db733acb0198b5d488f
+config_hash: 754e6b3c39beb2a9c2fcf8d17016192b
