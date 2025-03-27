@@ -1,5 +1,5 @@
 import { multipartFormRequestOptions, createForm } from 'miriam-example/internal/uploads';
-import { toFile } from 'miriam-example/uploads';
+import { toFile } from 'miriam-example/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {
