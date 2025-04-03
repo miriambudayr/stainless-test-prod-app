@@ -30,7 +30,7 @@ const client = new MiriamExample({
 });
 
 async function main() {
-  const pet = await client.pets.retrieve(0);
+  const pets = await client.pets.list();
 }
 
 main();
@@ -49,7 +49,7 @@ const client = new MiriamExample({
 });
 
 async function main() {
-  const pet: MiriamExample.Pet = await client.pets.retrieve(0);
+  const pets: MiriamExample.PetListResponse = await client.pets.list();
 }
 
 main();
@@ -66,7 +66,7 @@ a subclass of `APIError` will be thrown:
 <!-- prettier-ignore -->
 ```ts
 async function main() {
-  const pet = await client.pets.retrieve(0).catch(async (err) => {
+  const pets = await client.pets.list().catch(async (err) => {
     if (err instanceof MiriamExample.APIError) {
       console.log(err.status); // 400
       console.log(err.name); // BadRequestError
@@ -109,7 +109,7 @@ const client = new MiriamExample({
 });
 
 // Or, configure per-request:
-await client.pets.retrieve(0, {
+await client.pets.list({
   maxRetries: 5,
 });
 ```
@@ -126,7 +126,7 @@ const client = new MiriamExample({
 });
 
 // Override per-request:
-await client.pets.retrieve(0, {
+await client.pets.list({
   timeout: 5 * 1000,
 });
 ```
@@ -149,13 +149,13 @@ Unlike `.asResponse()` this method consumes the body, returning once it is parse
 ```ts
 const client = new MiriamExample();
 
-const response = await client.pets.retrieve(0).asResponse();
+const response = await client.pets.list().asResponse();
 console.log(response.headers.get('X-My-Header'));
 console.log(response.statusText); // access the underlying Response object
 
-const { data: pet, response: raw } = await client.pets.retrieve(0).withResponse();
+const { data: pets, response: raw } = await client.pets.list().withResponse();
 console.log(raw.headers.get('X-My-Header'));
-console.log(pet);
+console.log(pets);
 ```
 
 ### Logging
