@@ -4,7 +4,7 @@
 
 This library provides convenient access to the Miriam Example REST API from server-side TypeScript or JavaScript.
 
-The REST API documentation can be found on [swagger.ioo](https://swagger.ioo). The full API of this library can be found in [api.md](api.md).
+The REST API documentation can be found on [swagger.io](https://swagger.io). The full API of this library can be found in [api.md](api.md).
 
 It is generated with [Stainless](https://www.stainless.com/).
 
@@ -30,7 +30,7 @@ const client = new MiriamExample({
 });
 
 async function main() {
-  const pets = await client.pets.list();
+  const pet = await client.pets.retrieve(0);
 }
 
 main();
@@ -49,7 +49,7 @@ const client = new MiriamExample({
 });
 
 async function main() {
-  const pets: MiriamExample.PetListResponse = await client.pets.list();
+  const pet: MiriamExample.Pet = await client.pets.retrieve(0);
 }
 
 main();
@@ -66,7 +66,7 @@ a subclass of `APIError` will be thrown:
 <!-- prettier-ignore -->
 ```ts
 async function main() {
-  const pets = await client.pets.list().catch(async (err) => {
+  const pet = await client.pets.retrieve(0).catch(async (err) => {
     if (err instanceof MiriamExample.APIError) {
       console.log(err.status); // 400
       console.log(err.name); // BadRequestError
@@ -109,7 +109,7 @@ const client = new MiriamExample({
 });
 
 // Or, configure per-request:
-await client.pets.list({
+await client.pets.retrieve(0, {
   maxRetries: 5,
 });
 ```
@@ -126,7 +126,7 @@ const client = new MiriamExample({
 });
 
 // Override per-request:
-await client.pets.list({
+await client.pets.retrieve(0, {
   timeout: 5 * 1000,
 });
 ```
@@ -149,13 +149,13 @@ Unlike `.asResponse()` this method consumes the body, returning once it is parse
 ```ts
 const client = new MiriamExample();
 
-const response = await client.pets.list().asResponse();
+const response = await client.pets.retrieve(0).asResponse();
 console.log(response.headers.get('X-My-Header'));
 console.log(response.statusText); // access the underlying Response object
 
-const { data: pets, response: raw } = await client.pets.list().withResponse();
+const { data: pet, response: raw } = await client.pets.retrieve(0).withResponse();
 console.log(raw.headers.get('X-My-Header'));
-console.log(pets);
+console.log(pet);
 ```
 
 ### Logging
