@@ -4,14 +4,14 @@
 
 This library provides convenient access to the Miriam Example REST API from server-side TypeScript or JavaScript.
 
-The REST API documentation can be found on [swagger.io](https://swagger.io). The full API of this library can be found in [api.md](api.md).
+The REST API documentation can be found on [swagger.ioo](https://swagger.ioo). The full API of this library can be found in [api.md](api.md).
 
 It is generated with [Stainless](https://www.stainless.com/).
 
 ## Installation
 
 ```sh
-npm install git+ssh://git@github.com:stainless-sdks/miriam-example-typescript.git
+npm install git+ssh://git@github.com:miriambudayr/stainless-test-prod-app.git
 ```
 
 > [!NOTE]
@@ -346,7 +346,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/miriam-example-typescript/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/miriambudayr/stainless-test-prod-app/issues) with questions, bugs, or suggestions.
 
 ## Requirements
 
