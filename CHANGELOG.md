@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.5 (2025-04-04)
+
+Full Changelog: [v0.1.0-alpha.4...v0.1.0-alpha.5](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.4...v0.1.0-alpha.5)
+
+### Bug Fixes
+
+* **api:** improve type resolution when importing as a package ([#27](https://github.com/miriambudayr/stainless-test-prod-app/issues/27)) ([ea63798](https://github.com/miriambudayr/stainless-test-prod-app/commit/ea63798d5978d38768145c21873a735e0c57638e))
+
 ## 0.1.0-alpha.4 (2025-04-03)
 
 Full Changelog: [v0.1.0-alpha.3...v0.1.0-alpha.4](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.3...v0.1.0-alpha.4)
