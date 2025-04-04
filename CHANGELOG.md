@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.6 (2025-04-04)
+
+Full Changelog: [v0.1.0-alpha.5...v0.1.0-alpha.6](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.5...v0.1.0-alpha.6)
+
+### Features
+
+* **api:** update via SDK Studio ([#30](https://github.com/miriambudayr/stainless-test-prod-app/issues/30)) ([18634dd](https://github.com/miriambudayr/stainless-test-prod-app/commit/18634ddf0669df44fb48665aa5dc169b2a2a7526))
+
 ## 0.1.0-alpha.5 (2025-04-04)
 
 Full Changelog: [v0.1.0-alpha.4...v0.1.0-alpha.5](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.4...v0.1.0-alpha.5)
