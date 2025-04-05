@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.7 (2025-04-05)
+
+Full Changelog: [v0.1.0-alpha.6...v0.1.0-alpha.7](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.6...v0.1.0-alpha.7)
+
+### Bug Fixes
+
+* **mcp:** remove unused tools.ts ([#33](https://github.com/miriambudayr/stainless-test-prod-app/issues/33)) ([1532647](https://github.com/miriambudayr/stainless-test-prod-app/commit/1532647163ec58df68128105a2d949c31b83d010))
+
 ## 0.1.0-alpha.6 (2025-04-04)
 
 Full Changelog: [v0.1.0-alpha.5...v0.1.0-alpha.6](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.5...v0.1.0-alpha.6)
