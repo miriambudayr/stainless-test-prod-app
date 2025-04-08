@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.8 (2025-04-08)
+
+Full Changelog: [v0.1.0-alpha.7...v0.1.0-alpha.8](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.7...v0.1.0-alpha.8)
+
+### Bug Fixes
+
+* **client:** send all configured auth headers ([#36](https://github.com/miriambudayr/stainless-test-prod-app/issues/36)) ([d286329](https://github.com/miriambudayr/stainless-test-prod-app/commit/d28632965e09dceb4007e2a0b959c91377cc7a97))
+
 ## 0.1.0-alpha.7 (2025-04-05)
 
 Full Changelog: [v0.1.0-alpha.6...v0.1.0-alpha.7](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.6...v0.1.0-alpha.7)
