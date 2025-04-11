@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.1.0-alpha.10 (2025-04-11)
+
+Full Changelog: [v0.1.0-alpha.9...v0.1.0-alpha.10](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.9...v0.1.0-alpha.10)
+
+### Features
+
+* **api:** update via SDK Studio ([#40](https://github.com/miriambudayr/stainless-test-prod-app/issues/40)) ([41b3b0a](https://github.com/miriambudayr/stainless-test-prod-app/commit/41b3b0a0246f857bf1e867bcf1b7c6eee38a89b0))
+
+
+### Bug Fixes
+
+* **internal:** fix file uploads in node 18 jest ([f03d840](https://github.com/miriambudayr/stainless-test-prod-app/commit/f03d8406518c7b2f7142d080087aec49096e82bd))
+
+
+### Chores
+
+* **internal:** improve node 18 shims ([0f0236a](https://github.com/miriambudayr/stainless-test-prod-app/commit/0f0236a3b8cb176edb670776f44fd92329a53b74))
+* **internal:** reduce CI branch coverage ([3e6e2bd](https://github.com/miriambudayr/stainless-test-prod-app/commit/3e6e2bd5224af672a8ba78576e3ccd07b5776714))
+* **internal:** upload builds and expand CI branch coverage ([cf144ed](https://github.com/miriambudayr/stainless-test-prod-app/commit/cf144ed3655107e746f851c1a5a91c15c301d600))
+
 ## 0.1.0-alpha.9 (2025-04-09)
 
 Full Changelog: [v0.1.0-alpha.8...v0.1.0-alpha.9](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.8...v0.1.0-alpha.9)
