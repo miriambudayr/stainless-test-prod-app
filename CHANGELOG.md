@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.12 (2025-04-15)
+
+Full Changelog: [v0.1.0-alpha.11...v0.1.0-alpha.12](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.11...v0.1.0-alpha.12)
+
+### Chores
+
+* **client:** minor internal fixes ([eb2412b](https://github.com/miriambudayr/stainless-test-prod-app/commit/eb2412b71629f228c26bd70f1379d3054bd01c65))
+
 ## 0.1.0-alpha.11 (2025-04-11)
 
 Full Changelog: [v0.1.0-alpha.10...v0.1.0-alpha.11](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.10...v0.1.0-alpha.11)
