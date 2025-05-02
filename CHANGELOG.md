@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.1.0-alpha.12 (2025-05-02)
+
+Full Changelog: [v0.1.0-alpha.11...v0.1.0-alpha.12](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.11...v0.1.0-alpha.12)
+
+### Features
+
+* **api:** update via SDK Studio ([121028b](https://github.com/miriambudayr/stainless-test-prod-app/commit/121028b51c46bb6fcc84727bd4aa800312071f54))
+
+
+### Chores
+
+* **ci:** add timeout thresholds for CI jobs ([b98f57b](https://github.com/miriambudayr/stainless-test-prod-app/commit/b98f57b05e6fa858b2044e11903b96f3b6b341a7))
+* **ci:** only use depot for staging repos ([eafbc33](https://github.com/miriambudayr/stainless-test-prod-app/commit/eafbc339987e510ace70ff1fe8e2dc2eafb8f83e))
+* **client:** minor internal fixes ([eb2412b](https://github.com/miriambudayr/stainless-test-prod-app/commit/eb2412b71629f228c26bd70f1379d3054bd01c65))
+* **internal:** codegen related update ([32d832c](https://github.com/miriambudayr/stainless-test-prod-app/commit/32d832ce8739ad046464d6dac72893639f62a468))
+* **internal:** refactor utils ([1aa7783](https://github.com/miriambudayr/stainless-test-prod-app/commit/1aa77835857b6e10bf83cc2159faaf93338e102d))
+* **perf:** faster base64 decoding ([24673f9](https://github.com/miriambudayr/stainless-test-prod-app/commit/24673f9db5b3fba1b055120f83fc601d6d06e5b2))
+
+
+### Documentation
+
+* **readme:** fix typo ([e508e27](https://github.com/miriambudayr/stainless-test-prod-app/commit/e508e271bab04a6e2c5240f2a5081332bd434fa6))
+
 ## 0.1.0-alpha.11 (2025-04-11)
 
 Full Changelog: [v0.1.0-alpha.10...v0.1.0-alpha.11](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.10...v0.1.0-alpha.11)
