@@ -6,7 +6,7 @@
     "rootDir": "./dist/src",
     "paths": {
       "miriam-example/*": ["dist/src/*"],
-      "miriam-example": ["dist/src/index.ts"],
+      "miriam-example": ["dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,
