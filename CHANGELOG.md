@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.1.0-alpha.14 (2025-05-10)
+
+Full Changelog: [v0.1.0-alpha.13...v0.1.0-alpha.14](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.13...v0.1.0-alpha.14)
+
+### Features
+
+* **client:** add withOptions helper ([83127c4](https://github.com/miriambudayr/stainless-test-prod-app/commit/83127c4f0c5993e097cd0e5b873ec296c1af9638))
+
+
+### Bug Fixes
+
+* **client:** always overwrite when merging headers ([e2f2350](https://github.com/miriambudayr/stainless-test-prod-app/commit/e2f23507fe019b3cdd9aa99912dc2c81aa54363b))
+
+
+### Chores
+
+* **client:** drop support for EOL node versions ([41a3498](https://github.com/miriambudayr/stainless-test-prod-app/commit/41a3498bb7812812231bf8b35082898d3bd2e86c))
+* **internal:** share typescript helpers ([5836eae](https://github.com/miriambudayr/stainless-test-prod-app/commit/5836eae4a6aa9ba8924764b7ba046e7de49ebfdf))
+
 ## 0.1.0-alpha.13 (2025-05-02)
 
 Full Changelog: [v0.1.0-alpha.12...v0.1.0-alpha.13](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.12...v0.1.0-alpha.13)
