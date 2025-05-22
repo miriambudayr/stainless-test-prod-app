@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0-alpha.15 (2025-05-22)
+
+Full Changelog: [v0.1.0-alpha.14...v0.1.0-alpha.15](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.14...v0.1.0-alpha.15)
+
+### Chores
+
+* **docs:** grammar improvements ([85fe985](https://github.com/miriambudayr/stainless-test-prod-app/commit/85fe985f609c85b2b29d13d81462f768096cb2f8))
+* **package:** remove engines ([b55b3b4](https://github.com/miriambudayr/stainless-test-prod-app/commit/b55b3b447948950c539bd7645238ca537101771c))
+
 ## 0.1.0-alpha.14 (2025-05-10)
 
 Full Changelog: [v0.1.0-alpha.13...v0.1.0-alpha.14](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.13...v0.1.0-alpha.14)
