@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0-alpha.16 (2025-05-31)
+
+Full Changelog: [v0.1.0-alpha.15...v0.1.0-alpha.16](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.15...v0.1.0-alpha.16)
+
+### Chores
+
+* **deps:** bump eslint-plugin-prettier ([5c24fe0](https://github.com/miriambudayr/stainless-test-prod-app/commit/5c24fe0f4c56bae007f2c834e0b796440adda531))
+* **internal:** update jest config ([f8249ff](https://github.com/miriambudayr/stainless-test-prod-app/commit/f8249ff93cafd621679433e592299c16aa114121))
+
 ## 0.1.0-alpha.15 (2025-05-30)
 
 Full Changelog: [v0.1.0-alpha.14...v0.1.0-alpha.15](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.14...v0.1.0-alpha.15)
