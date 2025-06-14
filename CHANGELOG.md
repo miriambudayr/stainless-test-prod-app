@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.1.0-alpha.16 (2025-06-14)
+
+Full Changelog: [v0.1.0-alpha.15...v0.1.0-alpha.16](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.15...v0.1.0-alpha.16)
+
+### Bug Fixes
+
+* publish script — handle NPM errors correctly ([a4ffd52](https://github.com/miriambudayr/stainless-test-prod-app/commit/a4ffd5226a6ff5d74c9266a651dff5647ea8e836))
+
+
+### Chores
+
+* adjust eslint.config.mjs ignore pattern ([e6e1098](https://github.com/miriambudayr/stainless-test-prod-app/commit/e6e1098c1644d5f1829647f182c70a6aada1f59f))
+* avoid type error in certain environments ([5a9192b](https://github.com/miriambudayr/stainless-test-prod-app/commit/5a9192bc71d4774c1bfdc71d41960c91f1a4b9f6))
+* **deps:** bump eslint-plugin-prettier ([5c24fe0](https://github.com/miriambudayr/stainless-test-prod-app/commit/5c24fe0f4c56bae007f2c834e0b796440adda531))
+* **docs:** use top-level-await in example snippets ([653aa70](https://github.com/miriambudayr/stainless-test-prod-app/commit/653aa70986aafce94e098fda20a4e25a4cf0ba1a))
+* **internal:** add pure annotations, make base APIResource abstract ([e3ba55d](https://github.com/miriambudayr/stainless-test-prod-app/commit/e3ba55d00aa969178c4dfe68404627dd94242157))
+* **internal:** fix readablestream types in node 20 ([0ee9b27](https://github.com/miriambudayr/stainless-test-prod-app/commit/0ee9b27245b66d3b32c372bb04744494f29f0c62))
+* **internal:** update jest config ([f8249ff](https://github.com/miriambudayr/stainless-test-prod-app/commit/f8249ff93cafd621679433e592299c16aa114121))
+
 ## 0.1.0-alpha.15 (2025-05-30)
 
 Full Changelog: [v0.1.0-alpha.14...v0.1.0-alpha.15](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.14...v0.1.0-alpha.15)
