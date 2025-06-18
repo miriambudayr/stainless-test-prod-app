@@ -1,6 +1,6 @@
 # Miriam Example TypeScript API Library
 
-[![NPM version](https://img.shields.io/npm/v/miriam-example.svg)](https://npmjs.org/package/miriam-example) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/miriam-example)
+[![NPM version](<https://img.shields.io/npm/v/miriam-example.svg?label=npm%20(stable)>)](https://npmjs.org/package/miriam-example) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/miriam-example)
 
 This library provides convenient access to the Miriam Example REST API from server-side TypeScript or JavaScript.
 
