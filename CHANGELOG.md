@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.1.0-alpha.17 (2025-06-21)
+
+Full Changelog: [v0.1.0-alpha.16...v0.1.0-alpha.17](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.16...v0.1.0-alpha.17)
+
+### Features
+
+* **client:** add support for endpoint-specific base URLs ([89b08c7](https://github.com/miriambudayr/stainless-test-prod-app/commit/89b08c7871904f853c436b2313c480316c8aaa07))
+
+
+### Bug Fixes
+
+* **client:** explicitly copy fetch in withOptions ([8dcde1c](https://github.com/miriambudayr/stainless-test-prod-app/commit/8dcde1c149febb42193b4d8446d22d4b15a49fd2))
+
+
+### Chores
+
+* change publish docs url ([cf74338](https://github.com/miriambudayr/stainless-test-prod-app/commit/cf74338f24e0c4989342d8f083f715a45de52235))
+* **ci:** enable for pull requests ([fc1379d](https://github.com/miriambudayr/stainless-test-prod-app/commit/fc1379d2937523f286095c7a91d00ef597065ae9))
+* **client:** refactor imports ([bee1af6](https://github.com/miriambudayr/stainless-test-prod-app/commit/bee1af644b409c172fcc39f7916f0f8534744bae))
+* **readme:** update badges ([5509ce6](https://github.com/miriambudayr/stainless-test-prod-app/commit/5509ce666a654b67ada12379304923a65c12ff10))
+* **readme:** use better example snippet for undocumented params ([55c592a](https://github.com/miriambudayr/stainless-test-prod-app/commit/55c592a1d0d79de7bbdded8ebabde84161a9ea54))
+
 ## 0.1.0-alpha.16 (2025-06-14)
 
 Full Changelog: [v0.1.0-alpha.15...v0.1.0-alpha.16](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.15...v0.1.0-alpha.16)
