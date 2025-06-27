@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.18 (2025-06-27)
+
+Full Changelog: [v0.1.0-alpha.17...v0.1.0-alpha.18](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.17...v0.1.0-alpha.18)
+
+### Bug Fixes
+
+* **client:** get fetchOptions type more reliably ([b723568](https://github.com/miriambudayr/stainless-test-prod-app/commit/b7235683fda4c24b53fb0e54b2a0b90203dcba24))
+
 ## 0.1.0-alpha.17 (2025-06-21)
 
 Full Changelog: [v0.1.0-alpha.16...v0.1.0-alpha.17](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.16...v0.1.0-alpha.17)
