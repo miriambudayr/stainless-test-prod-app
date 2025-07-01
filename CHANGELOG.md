@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.0-alpha.19 (2025-07-01)
+
+Full Changelog: [v0.1.0-alpha.18...v0.1.0-alpha.19](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.18...v0.1.0-alpha.19)
+
+### Bug Fixes
+
+* **streaming:** correct event handling ([890bc09](https://github.com/miriambudayr/stainless-test-prod-app/commit/890bc0908f88885378962b78547f8b7bd081ea9d))
+
+
+### Chores
+
+* **ci:** only run for pushes and fork pull requests ([637ac2e](https://github.com/miriambudayr/stainless-test-prod-app/commit/637ac2ec4bc6f725ee1a1715cb6aa5a07c1888e8))
+
 ## 0.1.0-alpha.18 (2025-06-27)
 
 Full Changelog: [v0.1.0-alpha.17...v0.1.0-alpha.18](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.17...v0.1.0-alpha.18)
