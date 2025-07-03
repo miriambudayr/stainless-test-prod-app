@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.20 (2025-07-03)
+
+Full Changelog: [v0.1.0-alpha.19...v0.1.0-alpha.20](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.19...v0.1.0-alpha.20)
+
+### Chores
+
+* add docs to RequestOptions type ([7256dd7](https://github.com/miriambudayr/stainless-test-prod-app/commit/7256dd7b7a8047d3e9687ffe6379510e24dde87c))
+
 ## 0.1.0-alpha.19 (2025-07-01)
 
 Full Changelog: [v0.1.0-alpha.18...v0.1.0-alpha.19](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.18...v0.1.0-alpha.19)
