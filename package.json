@@ -13,6 +13,9 @@
     "**/*"
   ],
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "./scripts/test",
     "build": "./scripts/build",
@@ -45,10 +48,6 @@
     "tsconfig-paths": "^4.0.0",
     "typescript": "5.8.3",
     "typescript-eslint": "8.31.1"
-  },
-  "imports": {
-    "miriam-example": ".",
-    "miriam-example/*": "./src/*"
   },
   "exports": {
     ".": {
