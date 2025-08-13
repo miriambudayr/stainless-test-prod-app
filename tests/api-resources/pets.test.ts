@@ -8,7 +8,7 @@ const client = new MiriamExample({
 });
 
 describe('resource pets', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create: only required params', async () => {
     const responsePromise = client.pets.create({ name: 'name' });
     const rawResponse = await responsePromise.asResponse();
@@ -20,12 +20,12 @@ describe('resource pets', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create: required and optional params', async () => {
     const response = await client.pets.create({ name: 'name', tag: 'tag' });
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('retrieve', async () => {
     const responsePromise = client.pets.retrieve(0);
     const rawResponse = await responsePromise.asResponse();
@@ -37,7 +37,7 @@ describe('resource pets', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('list', async () => {
     const responsePromise = client.pets.list();
     const rawResponse = await responsePromise.asResponse();
@@ -49,7 +49,7 @@ describe('resource pets', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('list: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
@@ -57,7 +57,7 @@ describe('resource pets', () => {
     ).rejects.toThrow(MiriamExample.NotFoundError);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('delete', async () => {
     const responsePromise = client.pets.delete(0);
     const rawResponse = await responsePromise.asResponse();
