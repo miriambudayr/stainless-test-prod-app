@@ -707,7 +707,9 @@ export class MiriamExample {
 
   pets: API.Pets = new API.Pets(this);
 }
+
 MiriamExample.Pets = Pets;
+
 export declare namespace MiriamExample {
   export type RequestOptions = Opts.RequestOptions;
 
