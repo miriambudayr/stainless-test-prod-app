@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.1.0-alpha.20 (2025-08-29)
+
+Full Changelog: [v0.1.0-alpha.19...v0.1.0-alpha.20](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.19...v0.1.0-alpha.20)
+
+### Features
+
+* **mcp:** add code execution tool ([6953a40](https://github.com/miriambudayr/stainless-test-prod-app/commit/6953a40091bec96f9f4c4a105e604fe68c6c87b2))
+
+
+### Chores
+
+* add docs to RequestOptions type ([7256dd7](https://github.com/miriambudayr/stainless-test-prod-app/commit/7256dd7b7a8047d3e9687ffe6379510e24dde87c))
+* add package to package.json ([f15e4f4](https://github.com/miriambudayr/stainless-test-prod-app/commit/f15e4f45972278fe752c905e175255df445da9e1))
+* **client:** qualify global Blob ([9cb79ac](https://github.com/miriambudayr/stainless-test-prod-app/commit/9cb79ac4cfe2eca6618f4f630c2fa4ae96564da9))
+* **deps:** update dependency @types/node to v20.17.58 ([fc29bb6](https://github.com/miriambudayr/stainless-test-prod-app/commit/fc29bb68ddb0b4e16dbc03a92c1a817cebf75dc6))
+* **internal:** codegen related update ([7964846](https://github.com/miriambudayr/stainless-test-prod-app/commit/79648467f5117ae4323600a63cc2572ce8e835a3))
+* **internal:** formatting change ([8529903](https://github.com/miriambudayr/stainless-test-prod-app/commit/852990374d7f649284950d4439db236c8d77a609))
+* **internal:** update global Error reference ([dae698c](https://github.com/miriambudayr/stainless-test-prod-app/commit/dae698c19be1f94c44937744ad0c66a84dfec845))
+* make some internal functions async ([0df7efa](https://github.com/miriambudayr/stainless-test-prod-app/commit/0df7efa78c6084fce76dd42f9378cfee33a02368))
+* **ts:** reorder package.json imports ([dd770a6](https://github.com/miriambudayr/stainless-test-prod-app/commit/dd770a65be24b211e69ec3b805a3486454aa1d44))
+* update CI script ([b8cb5f1](https://github.com/miriambudayr/stainless-test-prod-app/commit/b8cb5f1c16e2b3406feef09132f4547547f2e6f9))
+
 ## 0.1.0-alpha.19 (2025-07-01)
 
 Full Changelog: [v0.1.0-alpha.18...v0.1.0-alpha.19](https://github.com/miriambudayr/stainless-test-prod-app/compare/v0.1.0-alpha.18...v0.1.0-alpha.19)
